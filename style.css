@@ -1,0 +1,54 @@
+.main{
+  margin-top: 100px;
+}
+.table{
+  display: flex;
+  justify-content: space-around;
+}
+.header{
+  display: flex;
+  margin: 10px auto;
+  font-size: 2rem;
+  color: red;
+
+}
+.btn{
+  display: block;
+  margin:  20px auto;
+  font-size: 1.5rem;
+  background-color: green;
+  color: white;
+}
+
+p{
+  background-color: yellow;
+  justify-content: center;
+  font-size: 2.5rem;
+  text-align: center;
+  border-radius: 5%
+}
+
+@media screen and (max-width: 700px) {
+
+  p{
+    background-color: yellow;
+    justify-content: center;
+    font-size: 1.5rem;
+    text-align: center;
+    border-radius: 5%;
+    margin: 10px 10px
+  }
+
+  .btn{
+    display: block;
+    margin:  20px auto;
+    font-size: 1rem;
+    background-color: green;
+    color: white;
+
+  }
+  h1{
+    text-align: center;
+    border: solid gray;
+  }
+}
